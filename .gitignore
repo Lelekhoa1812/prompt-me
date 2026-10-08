@@ -1,0 +1,18 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+# Editors/OS
+.DS_Store
+.idea/
+.vscode/
+# Temporary / local secrets
+.env
+.env.*
+!.env.example
+*.local
+*.log
+# Installer backups (if running against this repository)
+*.backup.*

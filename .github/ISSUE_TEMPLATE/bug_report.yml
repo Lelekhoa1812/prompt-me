@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a reproducible problem with the skill, installer, or docs.
+title: "bug: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Please remove credentials, proprietary source code, and sensitive prompts before submitting."
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Host agent
+      options: [Cursor, Claude Code, Codex, Other, Not applicable]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Agent version / operating system
+      placeholder: "Client version, OS, and active mode if known"
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: "Minimal, sanitized input and exact steps"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected vs actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized logs or supporting evidence
+      description: Never upload tokens, secrets, or confidential data.
