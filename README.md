@@ -92,7 +92,7 @@ tests/                         Automated validator/installer tests
 
 ## Project and legal status
 
-This is an independently maintained community project, **not affiliated with or endorsed by Microsoft, Cursor, Anthropic, or OpenAI**. “Enterprise-grade” describes the quality target, not third-party certification.
+This is an independently maintained community project, **not affiliated with or endorsed by Microsoft, Cursor, Anthropic, or OpenAI**. 
 
 **License:** No license has been selected by the repository owner yet. Public visibility is not itself permission to redistribute or modify. See [contribution guidance](CONTRIBUTING.md) until a license is chosen.
 
